@@ -1,0 +1,16 @@
+@import "styles/colors.scss";
+
+.btn-add-item{
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: $btn-add-item-color;
+  transition: 0.4s;
+
+  &:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid $btn-add-item-color;
+  }
+}
